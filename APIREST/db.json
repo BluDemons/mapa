@@ -1,11 +1,7 @@
 {
     "ubicaciones": [{
-        "nombre": "Fushë-Muhurr",
-        "longitud": "iorton0@imdb.com",
-        "latitud": "Ingaberg",
-        "id": "1",
-        "lastName": "Orton",
-        "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg",
-        "skill": "Oracle"
+        "nombre": "Juan Rojas",
+        "longitud": "-0.0960491",
+        "latitud": "-78.3062059"
     }]
 }

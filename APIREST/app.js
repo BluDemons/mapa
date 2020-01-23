@@ -10,11 +10,13 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get('/', (req, res) => {
-  res.send('Bienvenidos al Yavirac!');
+app.get('/estudiantes', (req, res) => {
+  const event = require('./db.json').ubicaciones;
+  res.send(event)
 });
 app.use('/api', books);
 
 app.listen(port, () => {
   console.log(`Running on port ${port}`);
 });
+
