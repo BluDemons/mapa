@@ -1,0 +1,23 @@
+{
+    "name": "front",
+    "version": "1.0.0",
+    "description": "front",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+        "start": "live-server public",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "test"
+    ],
+    "author": "juan",
+    "license": "MIT",
+    "dependencies": {
+        "autoprefixer": "^9.7.4",
+        "live-server": "^1.2.1",
+        "nodemon": "^2.0.2",
+        "postcss-cli": "^7.1.0",
+        "tailwindcss": "^1.1.4"
+    }
+}
